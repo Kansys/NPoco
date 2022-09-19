@@ -8,7 +8,8 @@
 	<PackageId>NPoco.SqlServer</PackageId>
 	<Authors>Adam Schröder</Authors>
 	<PackageTags>orm;sql;micro-orm;database;mvc</PackageTags>
-	<PackageProjectUrl>https://github.com/schotime/NPoco</PackageProjectUrl>
+	<PackageProjectUrl>https://github.com/Kansys/NPoco</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/Kansys/NPoco</RepositoryUrl>
     <LangVersion>latest</LangVersion>
 	<nullable>enable</nullable>
   </PropertyGroup>
