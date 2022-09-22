@@ -2,7 +2,6 @@
 
   <PropertyGroup>
 	<Description>An extremely easy to use Micro-ORM supporting Sql Server.</Description>
-	<VersionPrefix>5.3.2.1</VersionPrefix>
 	<TargetFrameworks>net461;netstandard2.0;netstandard2.1</TargetFrameworks>
 	<AssemblyName>NPoco.SqlServer</AssemblyName>
 	<PackageId>NPoco.SqlServer</PackageId>
@@ -12,10 +11,15 @@
 	<RepositoryUrl>https://github.com/Kansys/NPoco</RepositoryUrl>
     <LangVersion>latest</LangVersion>
 	<nullable>enable</nullable>
+  <MinVerDefaultPreReleasePhase>kansys</MinVerDefaultPreReleasePhase>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Data.SqlClient" Version="3.0.0" />
+    <PackageReference Include="MinVer" Version="4.2.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Polly" Version="7.2.2" />
   </ItemGroup>
 
